@@ -10,5 +10,3 @@ for username in "${usernames[@]}"
 do
     sudo useradd -m "$username"
 done
-
-echo "Successfully created users"
